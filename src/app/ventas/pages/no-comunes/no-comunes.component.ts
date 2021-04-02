@@ -37,7 +37,7 @@ export class NoComunesComponent {
   }
 
   borrarCliente(){
-    console.log('borra');
+    // console.log('borra');
     this.clientes.pop();
   }
 

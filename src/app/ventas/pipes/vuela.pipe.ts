@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class VuelaPipe implements PipeTransform{
 
   transform( valor:boolean){
-      console.log(valor);
+      // console.log(valor);
 
       return (valor) ? 'vuela' : 'no vuela';
   }

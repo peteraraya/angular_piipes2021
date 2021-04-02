@@ -7,8 +7,8 @@ import { Heroe } from '../interfaces/ventas.interfaces';
 export class OrdenarPipe implements PipeTransform {
 
   transform(heroes: Heroe[], ordenarPor: string = 'sin valor' ): Heroe[] {
-    console.log(heroes);
-    console.log(ordenarPor);
+    // console.log(heroes);
+    // console.log(ordenarPor);
 
     switch (ordenarPor) {
       case 'nombre':
