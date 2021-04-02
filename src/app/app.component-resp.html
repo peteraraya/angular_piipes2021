@@ -1,0 +1,34 @@
+<!-- <h1>{{ 'Hola Mundo' | uppercase }}</h1>
+<h1>{{ 'Hola Mundo' | lowercase }}</h1>
+<h1>{{ 'HOLa MUndo' | titlecase }}</h1> -->
+
+<div class="text-layout">
+
+  <h1>{{ nombre | titlecase }}</h1>
+
+  <h1>{{ valor | number }}</h1>
+
+  <h1>{{ obj | json }}</h1>
+
+</div>
+
+<button
+  pButton
+  (click)="mostrarNombre()"
+  icon="pi pi-bell"
+  iconPos="right"
+  class="p-button-help"
+  label="Cambiar nombre"
+>
+</button>
+
+<p-card 
+    [header]="nombre | titlecase"
+    subheader="esto es un subheader"
+  >
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem tenetur inventore fuga animi, molestias hic ut amet nemo magni eos vel incidunt repudiandae excepturi minus harum expedita cumque vitae pariatur.
+    </p>
+</p-card>
+
+
